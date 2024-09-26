@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.portraits img {
+  width: 16rem;
+  object-fit: cover;
+}
+
+.landscapes img {
+  height: 16rem;
+  object-fit: cover;
+}
